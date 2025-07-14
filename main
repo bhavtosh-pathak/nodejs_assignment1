@@ -1,0 +1,11 @@
+(* //now calling both files and import. *)
+import { add } from "./calculator.mjs";
+import { sub } from "./calculator.mjs";
+import { mul } from "./calculator.mjs";
+import { div } from "./calculator.mjs";
+import { greet } from "./greeting.mjs";
+console.log(greet("bhavosh pathak"));
+console.log(add(10,5));
+console.log(sub(10,5));
+console.log(mul(10,5));
+console.log(div(10,5));
