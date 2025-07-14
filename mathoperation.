@@ -1,0 +1,21 @@
+export function add(a,b){
+    return a+b;
+}
+export function sub(a,b){
+    return a-b;
+}
+export function mul(a,b){
+    return a*b;
+}
+export function div(a,b){
+    return a/b;
+}
+//now,caaling function and import.
+import { add } from "./calculator.mjs";
+import { sub } from "./calculator.mjs";
+import { mul } from "./calculator.mjs";
+import { div } from "./calculator.mjs";
+console.log(add(10,5));
+console.log(sub(10,5));
+console.log(mul(10,5));
+console.log(div(10,5));
